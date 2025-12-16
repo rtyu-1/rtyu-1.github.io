@@ -24,7 +24,7 @@ My research interests include network coding, the multiple-unicast conjecture, a
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INFOCOM 2026</div><img src='images/INFOCOM26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INFOCOM 2026</div><img src='images/INFOCOM2026.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [On the Multiple-Unicast Conjecture: Session Dominance]()
