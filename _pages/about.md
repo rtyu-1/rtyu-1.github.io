@@ -33,24 +33,30 @@ My research interests include network coding, the multiple-unicast conjecture, a
 
 [On the Multiple-Unicast Conjecture: Session Dominance]()
 
-**Sirui Liu**, Yeqiao Hou, Jessie Hui Wang, Zongpeng Li
+**Sirui Liu**, Yeqiao Hou, Jessie Hui Wang, Zongpeng Li 
+
+IEEE INFOCOM 2026
+ 
+<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+We introduce a new *session dominance* framework, whose core
+principle establishes that if the conjecture holds for a particular
+set of sessions, it must also hold for another, dominated set.  The goal is to establish a new pathway toward resolving this important and longstanding open problem.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISIT 2025</div><img src='images/ISIT2025.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Space Information Flow: Multiple Unicast in $l_p^n$](https://ieeexplore.ieee.org/abstract/document/11195665/)
+
+**Sirui Liu**,  Zongpeng Li. 
 
 <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-We introduce a new session dominance framework, whose core
-principle establishes that if the conjecture holds for a particular
-set of sessions, it must also hold for another, dominated set. This
-new perspective leads to: (1) unified proofs for known results; (2)
-a sufficient condition in the cost domain for the conjecture to hold
-on arbitrary undirected networks with three unicast sessions; (3)
-a new, equivalent formulation of the conjecture; and (4) a proof
-to the conjecture on a significant new network class defined solely
-by topological conditions—with no restrictions on network size
-or link capacities. The goal is to establish a new pathway toward
-resolving this important and longstanding open problem.
+The multiple-unicast network coding conjecture states that network coding is equivalent to routing for multiple unicast sessions in an undirected network. Our main result demonstrates that network coding is indeed equivalent to routing in $l_p^n$ spaces for $1\leq p\leq 2$
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [FitFEC: A Multi-Scale Transformer for Optimizing Packet Loss Recovery](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=LoWz-04AAAAJ&citation_for_view=LoWz-04AAAAJ:qUcmZB5y_30C), Yining Li, **Sirui Liu**, Zongpeng Li, Liang Du, Ling Deng, **IWQoS 2025**
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
