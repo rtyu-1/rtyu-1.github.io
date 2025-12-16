@@ -17,14 +17,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a second-year direct Ph.D. student at the Institute for Network Sciences and Cyberspace, Tsinghua University, advised by Professor Zongpeng Li. I received my bachelor’s degree from the School of Software, Tsinghua University.
+I am currently a second-year Ph.D. student at the Institute for Network Sciences and Cyberspace, Tsinghua University, advised by Professor Zongpeng Li. I received my bachelor’s degree from the School of Software, Tsinghua University.
 
 My research interests include network coding, the multiple-unicast conjecture, and forward error correction. I have published two papers. <a href='https://scholar.google.com/citations?user=LoWz-04AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
-
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📝 Publications 
 
@@ -38,13 +34,13 @@ My research interests include network coding, the multiple-unicast conjecture, a
 IEEE INFOCOM 2026
  
 <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-We introduce a new *session dominance* framework, whose core
+We introduce a new **session dominance** framework, whose core
 principle establishes that if the conjecture holds for a particular
-set of sessions, it must also hold for another, dominated set.  The goal is to establish a new pathway toward resolving this important and longstanding open problem.
+set of sessions, it must also hold for another, dominated set.  The goal is to establish a new pathway toward resolving this important  open problem.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISIT 2025</div><img src='images/ISIT2025.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISIT 2025</div><img src='images/ISIT25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Space Information Flow: Multiple Unicast in $l_p^n$](https://ieeexplore.ieee.org/abstract/document/11195665/)
@@ -59,16 +55,16 @@ The multiple-unicast network coding conjecture states that network coding is equ
 - [FitFEC: A Multi-Scale Transformer for Optimizing Packet Loss Recovery](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=LoWz-04AAAAJ&citation_for_view=LoWz-04AAAAJ:qUcmZB5y_30C), Yining Li, **Sirui Liu**, Zongpeng Li, Liang Du, Ling Deng, **IWQoS 2025**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+-  *2024.6* **Excellent Graduate Award**, Tsinghua University（清华大学优良毕业生）
+-  *2024.6* **Outstanding Graduate Award**, School of Software, Tsinghua University（清华大学软件学院优秀毕业生）
+- *2024.4* **Future Scholar Scholarship**, Tsinghua University （清华大学未来学者奖学金）
+-  *2023.10* **Comprehensive Excellence Scholarship**, Tsinghua University（清华大学综合优秀奖学金）
+-  *2022.10* **Academic Excellence Scholarship**, Tsinghua University（清华大学学业优秀奖学金）
+- *2021.10* **Outstanding Arts Scholarship**, Tsinghua University（清华大学文艺优秀奖学金）
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2024.08 -  now*, Institute for Network Sciences and Cyberspace, Tsinghua University, Beijing China. 
+- *2019.08 - 2024.06*, School of Software, Tsinghua University, Beijing China. 
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2023.07 - 2023.09*, Kuaishou, China .
