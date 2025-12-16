@@ -24,7 +24,7 @@ My research interests include network coding, the multiple-unicast conjecture, a
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INFOCOM 2026</div><img src='images/INFOCOM2026.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INFOCOM 26</div><img src='images/INFOCOM2026.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [On the Multiple-Unicast Conjecture: Session Dominance]()
@@ -40,12 +40,14 @@ set of sessions, it must also hold for another, dominated set.  The goal is to e
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISIT 2025</div><img src='images/ISIT25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISIT 25</div><img src='images/ISIT25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Space Information Flow: Multiple Unicast in $l_p^n$](https://ieeexplore.ieee.org/abstract/document/11195665/)
 
 **Sirui Liu**,  Zongpeng Li. 
+
+IEEE ISIT 2025
 
 <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 The multiple-unicast network coding conjecture states that network coding is equivalent to routing for multiple unicast sessions in an undirected network. Our main result demonstrates that network coding is indeed equivalent to routing in $l_p^n$ spaces for $1\leq p\leq 2$
@@ -55,12 +57,12 @@ The multiple-unicast network coding conjecture states that network coding is equ
 - [FitFEC: A Multi-Scale Transformer for Optimizing Packet Loss Recovery](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=LoWz-04AAAAJ&citation_for_view=LoWz-04AAAAJ:qUcmZB5y_30C), Yining Li, **Sirui Liu**, Zongpeng Li, Liang Du, Ling Deng, **IWQoS 2025**
 
 # 🎖 Honors and Awards
--  *2024.6* **Excellent Graduate Award**, Tsinghua University（清华大学优良毕业生）
--  *2024.6* **Outstanding Graduate Award**, School of Software, Tsinghua University（清华大学软件学院优秀毕业生）
-- *2024.4* **Future Scholar Scholarship**, Tsinghua University （清华大学未来学者奖学金）
--  *2023.10* **Comprehensive Excellence Scholarship**, Tsinghua University（清华大学综合优秀奖学金）
--  *2022.10* **Academic Excellence Scholarship**, Tsinghua University（清华大学学业优秀奖学金）
-- *2021.10* **Outstanding Arts Scholarship**, Tsinghua University（清华大学文艺优秀奖学金）
+-  *2024.6* **Excellent Graduate Award**, Tsinghua University
+-  *2024.6* **Outstanding Graduate Award**, School of Software, Tsinghua University
+- *2024.4* **Future Scholar Scholarship**, Tsinghua University 
+-  *2023.10* **Comprehensive Excellence Scholarship**, Tsinghua University
+-  *2022.10* **Academic Excellence Scholarship**, Tsinghua University
+- *2021.10* **Outstanding Arts Scholarship**, Tsinghua University
 
 # 📖 Educations
 - *2024.08 -  now*, Institute for Network Sciences and Cyberspace, Tsinghua University, Beijing China. 
