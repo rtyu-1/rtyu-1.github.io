@@ -62,7 +62,7 @@ The multiple-unicast network coding conjecture states that network coding is equ
 - *2024.4* **Future Scholar Scholarship**, Tsinghua University 
 -  *2023.10* **Comprehensive Excellence Scholarship**, Tsinghua University
 -  *2022.10* **Academic Excellence Scholarship**, Tsinghua University
-- *2021.10* **Outstanding Arts Scholarship**, Tsinghua University
+- *2021.10* **Arts Excellence Scholarship**, Tsinghua University
 
 # 📖 Educations
 - *2024.08 -  now*, Institute for Network Sciences and Cyberspace, Tsinghua University, Beijing China. 
