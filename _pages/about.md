@@ -24,8 +24,6 @@ My research interests include network coding, the multiple-unicast conjecture, a
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INFOCOM 26</div><img src='images/INFOCOM2026.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
 [On the Multiple-Unicast Conjecture: Session Dominance]()
 
@@ -40,8 +38,20 @@ set of sessions, it must also hold for another, dominated set.  The goal is to e
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISIT 25</div><img src='images/ISIT25.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+
+
+[A Session Interaction Framework for The Multiple-Unicast Conjecture]()
+
+**Sirui Liu**,  Zongpeng Li,  Xiying Fan,  Haifeng Chen
+
+IEEE ISIT 2026
+
+<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+The multiple-unicast network coding conjecture states that network coding is equivalent to routing for multiple unicast sessions in an undirected network. We propose a **Session Interaction Framework** that reduces the conjecture to a central equivalence: the conjecture holds universally if and only if every irreducible session pair is independent.
+</div>
+</div>
+
+
 
 [Space Information Flow: Multiple Unicast in $l_p^n$](https://ieeexplore.ieee.org/abstract/document/11195665/)
 
