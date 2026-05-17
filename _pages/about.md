@@ -35,8 +35,6 @@ IEEE INFOCOM 2026
 We introduce a new **session dominance** framework, whose core
 principle establishes that if the conjecture holds for a particular
 set of sessions, it must also hold for another, dominated set.  The goal is to establish a new pathway toward resolving this important  open problem.
-</div>
-</div>
 
 
 
