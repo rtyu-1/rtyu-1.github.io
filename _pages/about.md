@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a second-year Ph.D. student at the Institute for Network Sciences and Cyberspace, Tsinghua University, advised by Professor Zongpeng Li. I received my bachelor’s degree from the School of Software, Tsinghua University.
+I am currently a Ph.D. candidate at the Institute for Network Sciences and Cyberspace, Tsinghua University, advised by Professor Zongpeng Li. I received my bachelor’s degree from the School of Software, Tsinghua University.
 
 My research interests include network coding, the multiple-unicast conjecture, and forward error correction. I have published two papers. <a href='https://scholar.google.com/citations?user=LoWz-04AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
@@ -48,8 +48,6 @@ IEEE ISIT 2026
 
 <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 The multiple-unicast network coding conjecture states that network coding is equivalent to routing for multiple unicast sessions in an undirected network. We propose a **Session Interaction Framework** that reduces the conjecture to a central equivalence: the conjecture holds universally if and only if every irreducible session pair is independent.
-</div>
-</div>
 
 
 
@@ -61,8 +59,6 @@ IEEE ISIT 2025
 
 <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 The multiple-unicast network coding conjecture states that network coding is equivalent to routing for multiple unicast sessions in an undirected network. Our main result demonstrates that network coding is indeed equivalent to routing in $l_p^n$ spaces for $1\leq p\leq 2$
-</div>
-</div>
 
 - [FitFEC: A Multi-Scale Transformer for Optimizing Packet Loss Recovery](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=LoWz-04AAAAJ&citation_for_view=LoWz-04AAAAJ:qUcmZB5y_30C), Yining Li, **Sirui Liu**, Zongpeng Li, Liang Du, Ling Deng, **IWQoS 2025**
 
