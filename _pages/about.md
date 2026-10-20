@@ -25,7 +25,7 @@ My research focuses on network coding and the multiple-unicast problem. I am als
 
 ### [Undirected Network Coding and Faster External-Memory Integer Sorting](https://arxiv.org/abs/2610.20079)
 
-Baochun Li, Zongpeng Li, **Sirui Liu**
+Baochun Li, Zongpeng Li, **Sirui Liu** · **Co-first author** (authors listed alphabetically)
 
 arXiv:2610.20079, 2026 · <span class='show_paper_citations' data='LoWz-04AAAAJ:R3hNpaxXUhUC'>Citations: 0</span>
 
@@ -33,7 +33,7 @@ We study the advantage of network coding over fractional routing in undirected n
 
 ### [On the Multiple-Unicast Conjecture: Beyond Cut Metrics](https://arxiv.org/abs/2608.06070)
 
-**Sirui Liu**, Li Que, Zongpeng Li, Baochun Li
+**Sirui Liu**, Li Que, Zongpeng Li, Baochun Li · **First author**
 
 arXiv:2608.06070, 2026 · <span class='show_paper_citations' data='LoWz-04AAAAJ:TQgYirikUcIC'>Citations: 3</span>
 
@@ -43,7 +43,7 @@ We develop a unified metric framework for comparing network coding and routing, 
 
 ### [A Session Interaction Framework for The Multiple-Unicast Conjecture](https://doi.org/10.1109/ISIT62367.2026.11653955)
 
-**Sirui Liu**, Zongpeng Li, Xiying Fan, Haifeng Chen
+**Sirui Liu**, Zongpeng Li, Xiying Fan, Haifeng Chen · **First author**
 
 IEEE ISIT 2026 · [arXiv](https://arxiv.org/abs/2608.06042) · <span class='show_paper_citations' data='LoWz-04AAAAJ:HDshCWvjkbEC'>Citations: 2</span>
 
@@ -51,7 +51,7 @@ We develop a **Session Interaction Framework** that combines session dominance a
 
 ### [On the Multiple-Unicast Conjecture: Session Dominance](https://doi.org/10.1109/INFOCOM59046.2026.11571518)
 
-**Sirui Liu**, Yeqiao Hou, Jessie Hui Wang, Zongpeng Li
+**Sirui Liu**, Yeqiao Hou, Jessie Hui Wang, Zongpeng Li · **First author**
 
 IEEE INFOCOM 2026 · <span class='show_paper_citations' data='LoWz-04AAAAJ:mB3voiENLucC'>Citations: 4</span>
 
@@ -59,7 +59,7 @@ We introduce a **session dominance** framework: if the conjecture holds for a pa
 
 ### [Space Information Flow: Multiple Unicast in $l_p^n$](https://ieeexplore.ieee.org/abstract/document/11195665/)
 
-**Sirui Liu**, Zongpeng Li
+**Sirui Liu**, Zongpeng Li · **First author**
 
 IEEE ISIT 2025 · <span class='show_paper_citations' data='LoWz-04AAAAJ:IWHjjKOFINEC'>Citations: 4</span>
 
@@ -67,7 +67,7 @@ We show that network coding is equivalent to routing in $l_p^n$ spaces for $1 \l
 
 ### [FitFEC: A Multi-Scale Transformer for Optimizing Packet Loss Recovery](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LoWz-04AAAAJ&citation_for_view=LoWz-04AAAAJ:qUcmZB5y_30C)
 
-Yining Li, **Sirui Liu**, Zongpeng Li, Liang Du, Ling Deng
+Yining Li, **Sirui Liu**, Zongpeng Li, Liang Du, Ling Deng · **Second author**
 
 IEEE IWQoS 2025 · <span class='show_paper_citations' data='LoWz-04AAAAJ:qUcmZB5y_30C'>Citations: 1</span>
 
