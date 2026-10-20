@@ -17,6 +17,8 @@ My research focuses on network coding and the multiple-unicast problem. I am als
 [Google Scholar](https://scholar.google.com/citations?user=LoWz-04AAAAJ): **<span id="total_cit">14</span> citations** · **h-index: <span id="scholar_hindex">3</span>**  
 <small>Scholar data updated: <span id="scholar_updated">2026-10-20</span>.</small>
 
+<span class='anchor' id='-publications'></span>
+
 # 📝 Publications and Preprints
 
 ## Preprints
@@ -76,6 +78,8 @@ IEEE IWQoS 2025 · <span class='show_paper_citations' data='LoWz-04AAAAJ:qUcmZB5
 -  *2023.10* **Comprehensive Excellence Scholarship**, Tsinghua University
 -  *2022.10* **Academic Excellence Scholarship**, Tsinghua University
 - *2021.10* **Arts Excellence Scholarship**, Tsinghua University
+
+<span class='anchor' id='-educations'></span>
 
 # 📖 Education
 - *2024.08 - present*, Institute for Network Sciences and Cyberspace, Tsinghua University, Beijing, China.
