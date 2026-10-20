@@ -1,0 +1,344 @@
+{
+  "stats": {
+    "citations": 14,
+    "hindex": 3,
+    "updated": "2026-10-20"
+  },
+  "publications": [
+    {
+      "type": "preprint",
+      "year": "2026",
+      "venue": "arXiv:2610.20079",
+      "id": "LoWz-04AAAAJ:R3hNpaxXUhUC",
+      "url": "https://arxiv.org/abs/2610.20079",
+      "title": {
+        "en": "Undirected Network Coding and Faster External-Memory Integer Sorting",
+        "zh": "无向网络编码与更快的外存整数排序"
+      },
+      "authors": "Baochun Li, Zongpeng Li, **Sirui Liu**",
+      "role": "cofirst",
+      "summary": {
+        "en": "We study the advantage of network coding over fractional routing in undirected networks and use the construction to develop faster external-memory integer sorting algorithms.",
+        "zh": "我们研究网络编码相对于分数路由在无向网络中的优势，并利用这一构造设计更快的外存整数排序算法。"
+      },
+      "citations": 0
+    },
+    {
+      "type": "preprint",
+      "year": "2026",
+      "venue": "arXiv:2608.06070",
+      "id": "LoWz-04AAAAJ:TQgYirikUcIC",
+      "url": "https://arxiv.org/abs/2608.06070",
+      "title": {
+        "en": "On the Multiple-Unicast Conjecture: Beyond Cut Metrics",
+        "zh": "多单播猜想：超越割度量"
+      },
+      "authors": "**Sirui Liu**, Li Que, Zongpeng Li, Baochun Li",
+      "role": "first",
+      "summary": {
+        "en": "We develop a unified metric framework for comparing network coding and routing, proving their equivalence for new classes of undirected networks.",
+        "zh": "我们建立了比较网络编码与路由的统一度量框架，并在若干新的无向网络类别中证明二者等价。"
+      },
+      "citations": 3
+    },
+    {
+      "type": "conference",
+      "year": "2026",
+      "venue": "IEEE ISIT",
+      "id": "LoWz-04AAAAJ:HDshCWvjkbEC",
+      "url": "https://doi.org/10.1109/ISIT62367.2026.11653955",
+      "preprint": "https://arxiv.org/abs/2608.06042",
+      "title": {
+        "en": "A Session Interaction Framework for The Multiple-Unicast Conjecture",
+        "zh": "多单播猜想的会话交互框架"
+      },
+      "authors": "**Sirui Liu**, Zongpeng Li, Xiying Fan, Haifeng Chen",
+      "role": "first",
+      "summary": {
+        "en": "We develop a **Session Interaction Framework** that combines session dominance and session decoupling to reduce the analysis of network coding and routing to irreducible cores and independent subsets.",
+        "zh": "我们提出**会话交互框架**，结合会话支配与会话解耦，将网络编码与路由的分析归约到不可约核心和独立子集。"
+      },
+      "citations": 2
+    },
+    {
+      "type": "conference",
+      "year": "2026",
+      "venue": "IEEE INFOCOM",
+      "id": "LoWz-04AAAAJ:mB3voiENLucC",
+      "url": "https://doi.org/10.1109/INFOCOM59046.2026.11571518",
+      "title": {
+        "en": "On the Multiple-Unicast Conjecture: Session Dominance",
+        "zh": "多单播猜想：会话支配"
+      },
+      "authors": "**Sirui Liu**, Yeqiao Hou, Jessie Hui Wang, Zongpeng Li",
+      "role": "first",
+      "summary": {
+        "en": "We introduce a **session dominance** framework: if the conjecture holds for a particular set of sessions, it also holds for another, dominated set.",
+        "zh": "我们提出**会话支配框架**：若猜想对某一组会话成立，那么对被其支配的另一组会话也成立。"
+      },
+      "citations": 4
+    },
+    {
+      "type": "conference",
+      "year": "2025",
+      "venue": "IEEE ISIT",
+      "id": "LoWz-04AAAAJ:IWHjjKOFINEC",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11195665/",
+      "title": {
+        "en": "Space Information Flow: Multiple Unicast in $l_p^n$",
+        "zh": "空间信息流：$l_p^n$ 空间中的多单播"
+      },
+      "authors": "**Sirui Liu**, Zongpeng Li",
+      "role": "first",
+      "summary": {
+        "en": "We show that network coding is equivalent to routing in $l_p^n$ spaces for $1 \\leq p \\leq 2$.",
+        "zh": "我们证明，当 $1 \\leq p \\leq 2$ 时，网络编码与路由在 $l_p^n$ 空间中等价。"
+      },
+      "citations": 4
+    },
+    {
+      "type": "conference",
+      "year": "2025",
+      "venue": "IEEE IWQoS",
+      "id": "LoWz-04AAAAJ:qUcmZB5y_30C",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LoWz-04AAAAJ&citation_for_view=LoWz-04AAAAJ:qUcmZB5y_30C",
+      "title": {
+        "en": "FitFEC: A Multi-Scale Transformer for Optimizing Packet Loss Recovery",
+        "zh": "FitFEC：用于优化丢包恢复的多尺度 Transformer"
+      },
+      "authors": "Yining Li, **Sirui Liu**, Zongpeng Li, Liang Du, Ling Deng",
+      "role": "second",
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "citations": 1
+    }
+  ],
+  "en": {
+    "about": "About",
+    "research": "Publications",
+    "experience": "Experience",
+    "education": "Education",
+    "awards": "Honors",
+    "role": "Ph.D. candidate",
+    "university": "Tsinghua University",
+    "location": "Beijing, China",
+    "eyebrow": "NETWORK CODING · INFORMATION THEORY",
+    "biography": [
+      "I am currently a Ph.D. candidate at the Institute for Network Sciences and Cyberspace, Tsinghua University, advised by Professor Zongpeng Li. I received my bachelor’s degree from the School of Software, Tsinghua University.",
+      "My research focuses on network coding and the multiple-unicast problem. I am also interested in forward error correction and connections between network coding, algorithms, and computational complexity."
+    ],
+    "topics": [
+      "Network coding",
+      "Multiple unicast",
+      "Forward error correction"
+    ],
+    "contact": "Get in touch",
+    "scholar": "Google Scholar",
+    "works": "Publications & preprints",
+    "citations": "Citations",
+    "hindex": "h-index",
+    "updated": "Updated",
+    "researchKicker": "RESEARCH",
+    "researchTitle": "Publications & preprints",
+    "researchNote": "First or co-first author on 5 of 6 works.",
+    "groups": [
+      {
+        "key": "preprint",
+        "label": "Preprints"
+      },
+      {
+        "key": "conference",
+        "label": "Conference papers"
+      }
+    ],
+    "roles": {
+      "first": "First author",
+      "cofirst": "Co-first author",
+      "second": "Second author"
+    },
+    "alphabetical": "Authors listed alphabetically",
+    "paper": "Read paper",
+    "experienceTitle": "Research & industry",
+    "experienceKicker": "EXPERIENCE",
+    "educationTitle": "Education",
+    "educationKicker": "BACKGROUND",
+    "awardTitle": "Honors & awards",
+    "awardKicker": "RECOGNITION",
+    "internships": [
+      {
+        "date": "JUN — AUG 2026",
+        "place": "OPPO",
+        "detail": "Intern · Standards Research Department"
+      },
+      {
+        "date": "JUL — SEP 2023",
+        "place": "Kuaishou",
+        "detail": "China"
+      }
+    ],
+    "schools": [
+      {
+        "date": "AUG 2024 — PRESENT",
+        "place": "Tsinghua University",
+        "detail": "Ph.D. candidate · Institute for Network Sciences and Cyberspace",
+        "sub": "Beijing, China"
+      },
+      {
+        "date": "AUG 2019 — JUN 2024",
+        "place": "Tsinghua University",
+        "detail": "Bachelor’s degree · School of Software",
+        "sub": "Beijing, China"
+      }
+    ],
+    "honors": [
+      {
+        "date": "2024.06",
+        "name": "Excellent Graduate Award",
+        "by": "Tsinghua University"
+      },
+      {
+        "date": "2024.06",
+        "name": "Outstanding Graduate Award",
+        "by": "School of Software, Tsinghua University"
+      },
+      {
+        "date": "2024.04",
+        "name": "Future Scholar Scholarship",
+        "by": "Tsinghua University"
+      },
+      {
+        "date": "2023.10",
+        "name": "Comprehensive Excellence Scholarship",
+        "by": "Tsinghua University"
+      },
+      {
+        "date": "2022.10",
+        "name": "Academic Excellence Scholarship",
+        "by": "Tsinghua University"
+      },
+      {
+        "date": "2021.10",
+        "name": "Arts Excellence Scholarship",
+        "by": "Tsinghua University"
+      }
+    ],
+    "footer": "Network coding, algorithms, and the ideas that connect them.",
+    "skip": "Skip to content",
+    "top": "Back to top"
+  },
+  "zh": {
+    "about": "关于我",
+    "research": "论文成果",
+    "experience": "实习经历",
+    "education": "教育经历",
+    "awards": "荣誉奖励",
+    "role": "博士研究生",
+    "university": "清华大学",
+    "location": "中国 · 北京",
+    "eyebrow": "网络编码 · 信息论",
+    "biography": [
+      "我目前在清华大学网络科学与网络空间研究院攻读博士学位，导师为 Zongpeng Li 教授。本科毕业于清华大学软件学院。",
+      "我的研究主要围绕网络编码与多单播问题展开，同时关注前向纠错，以及网络编码与算法、计算复杂性之间的联系。"
+    ],
+    "topics": [
+      "网络编码",
+      "多单播问题",
+      "前向纠错"
+    ],
+    "contact": "联系我",
+    "scholar": "Google 学术",
+    "works": "论文与预印本",
+    "citations": "总引用",
+    "hindex": "h 指数",
+    "updated": "更新于",
+    "researchKicker": "研究成果",
+    "researchTitle": "论文与预印本",
+    "researchNote": "6 项成果，其中 5 项为第一作者或共同第一作者。",
+    "groups": [
+      {
+        "key": "preprint",
+        "label": "预印本"
+      },
+      {
+        "key": "conference",
+        "label": "会议论文"
+      }
+    ],
+    "roles": {
+      "first": "第一作者",
+      "cofirst": "共同第一作者",
+      "second": "第二作者"
+    },
+    "alphabetical": "作者按字母顺序排列",
+    "paper": "阅读论文",
+    "experienceTitle": "实习经历",
+    "experienceKicker": "实践经历",
+    "educationTitle": "教育经历",
+    "educationKicker": "学术背景",
+    "awardTitle": "荣誉与奖励",
+    "awardKicker": "荣誉奖励",
+    "internships": [
+      {
+        "date": "2026.06 — 2026.08",
+        "place": "OPPO",
+        "detail": "标准研究部 · 实习生"
+      },
+      {
+        "date": "2023.07 — 2023.09",
+        "place": "快手",
+        "detail": "中国"
+      }
+    ],
+    "schools": [
+      {
+        "date": "2024.08 — 至今",
+        "place": "清华大学",
+        "detail": "网络科学与网络空间研究院 · 博士研究生",
+        "sub": "北京，中国"
+      },
+      {
+        "date": "2019.08 — 2024.06",
+        "place": "清华大学",
+        "detail": "软件学院 · 本科",
+        "sub": "北京，中国"
+      }
+    ],
+    "honors": [
+      {
+        "date": "2024.06",
+        "name": "优秀毕业生",
+        "by": "清华大学"
+      },
+      {
+        "date": "2024.06",
+        "name": "优秀毕业生",
+        "by": "清华大学软件学院"
+      },
+      {
+        "date": "2024.04",
+        "name": "未来学者奖学金",
+        "by": "清华大学"
+      },
+      {
+        "date": "2023.10",
+        "name": "综合优秀奖学金",
+        "by": "清华大学"
+      },
+      {
+        "date": "2022.10",
+        "name": "学业优秀奖学金",
+        "by": "清华大学"
+      },
+      {
+        "date": "2021.10",
+        "name": "文艺优秀奖学金",
+        "by": "清华大学"
+      }
+    ],
+    "footer": "探索网络编码、算法，以及它们之间的联系。",
+    "skip": "跳至正文",
+    "top": "回到顶部"
+  }
+}

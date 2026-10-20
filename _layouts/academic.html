@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.excerpt | escape }}">
+  <title>Sirui Liu — {% if page.lang == 'zh-CN' %}学术主页{% else %}Academic Homepage{% endif %}</title>
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+  <link rel="alternate" hreflang="zh-CN" href="{{ '/zh/' | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+  {% include head/custom.html %}
+</head>
+<body class="academic-site">
+  {{ content }}
+  <script src="{{ '/assets/js/vendor/jquery/jquery-1.12.4.min.js' | relative_url }}"></script>
+  {% include analytics.html %}
+  {% include fetch_google_scholar_stats.html %}
+</body>
+</html>

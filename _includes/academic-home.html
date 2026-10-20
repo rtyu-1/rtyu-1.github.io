@@ -1,0 +1,115 @@
+{% assign lang = 'en' %}
+{% if page.lang == 'zh-CN' %}{% assign lang = 'zh' %}{% endif %}
+{% assign profile = site.data.academic %}
+{% assign text = profile[lang] %}
+<a class="skip-link" href="#main">{{ text.skip }}</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="wordmark" href="#about-me" aria-label="Sirui Liu">
+      <span class="monogram" aria-hidden="true">SL<span></span></span>
+      <span>Sirui Liu<span class="wordmark-sub">{{ text.university }}</span></span>
+    </a>
+    <nav class="primary-nav" aria-label="{% if lang == 'zh' %}主导航{% else %}Main navigation{% endif %}">
+      <a href="#about-me">{{ text.about }}</a>
+      <a href="#-publications">{{ text.research }}</a>
+      <a href="#-internships">{{ text.experience }}</a>
+      <a href="#-educations">{{ text.education }}</a>
+      <a href="#-honors-and-awards">{{ text.awards }}</a>
+    </nav>
+    <nav class="language-toggle" aria-label="{% if lang == 'zh' %}语言切换{% else %}Language{% endif %}">
+      <a href="{{ '/' | relative_url }}" lang="en" hreflang="en" {% if lang == 'en' %}aria-current="page"{% endif %}>EN</a>
+      <a href="{{ '/zh/' | relative_url }}" lang="zh-CN" hreflang="zh-CN" {% if lang == 'zh' %}aria-current="page"{% endif %}>中文</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="site-main">
+  <section class="hero" id="about-me" aria-labelledby="profile-name">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="accent-line" aria-hidden="true"></span>{{ text.eyebrow }}</p>
+      <h1 id="profile-name">Sirui Liu<span class="name-period">.</span></h1>
+      <p class="hero-position">{{ text.role }} <span aria-hidden="true">/</span> {{ text.university }}</p>
+      <div class="biography">{% for paragraph in text.biography %}<p>{{ paragraph }}</p>{% endfor %}</div>
+      <ul class="research-topics" aria-label="{% if lang == 'zh' %}研究方向{% else %}Research interests{% endif %}">
+        {% for topic in text.topics %}<li>{{ topic }}</li>{% endfor %}
+      </ul>
+      <div class="hero-links">
+        <a class="contact-link" href="mailto:{{ site.author.email }}">{{ text.contact }} <span aria-hidden="true">↗</span></a>
+        <a class="scholar-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">{{ text.scholar }} <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <figure class="portrait">
+      <div class="portrait-frame"><img src="{{ site.author.avatar | relative_url }}" alt="Sirui Liu" width="256" height="300" fetchpriority="high"></div>
+      <figcaption><span class="location-dot" aria-hidden="true"></span>{{ text.location }}</figcaption>
+    </figure>
+  </section>
+
+  <section class="stats-strip" aria-label="{% if lang == 'zh' %}学术概览{% else %}Research at a glance{% endif %}">
+    <div class="stat"><strong>{{ profile.publications | size }}</strong><span>{{ text.works }}</span></div>
+    <div class="stat"><strong id="total_cit">{{ profile.stats.citations }}</strong><span>{{ text.citations }}</span></div>
+    <div class="stat"><strong id="scholar_hindex">{{ profile.stats.hindex }}</strong><span>{{ text.hindex }}</span></div>
+    <div class="stats-source"><a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">{{ text.scholar }} <span aria-hidden="true">↗</span></a><span>{{ text.updated }} <time id="scholar_updated">{{ profile.stats.updated }}</time></span></div>
+  </section>
+
+  <section class="publications-section" id="-publications" aria-labelledby="publications-heading">
+    <div class="section-heading">
+      <div><p class="eyebrow">{{ text.researchKicker }}</p><h2 id="publications-heading">{{ text.researchTitle }}</h2></div>
+      <p class="section-note">{{ text.researchNote }}</p>
+    </div>
+    {% for group in text.groups %}
+    <div class="publication-group">
+      <h3 class="group-title">{{ group.label }}<span class="group-rule" aria-hidden="true"></span></h3>
+      {% for paper in profile.publications %}{% if paper.type == group.key %}
+      <article class="publication">
+        <div class="publication-year">{{ paper.year }}</div>
+        <div class="publication-body">
+          <div class="paper-meta"><span class="venue">{{ paper.venue }}</span><span class="authorship {{ paper.role }}">{{ text.roles[paper.role] }}</span>{% if paper.role == 'cofirst' %}<span class="author-note">{{ text.alphabetical }}</span>{% endif %}</div>
+          <h4 class="paper-title"><a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.title[lang] | markdownify | remove: '<p>' | remove: '</p>' }}</a></h4>
+          {% if lang == 'zh' %}<p class="paper-original-title" lang="en">{{ paper.title.en }}</p>{% endif %}
+          <div class="paper-authors">{{ paper.authors | markdownify }}</div>
+          {% if paper.summary[lang] != '' %}<div class="paper-summary">{{ paper.summary[lang] | markdownify }}</div>{% endif %}
+          <div class="paper-links">
+            <a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ text.paper }} <span aria-hidden="true">↗</span></a>
+            {% if paper.preprint %}<a href="{{ paper.preprint }}" target="_blank" rel="noopener noreferrer">arXiv <span aria-hidden="true">↗</span></a>{% endif %}
+            <span class="show_paper_citations" data="{{ paper.id }}">{% if lang == 'zh' %}引用：{% else %}Citations: {% endif %}{{ paper.citations }}</span>
+          </div>
+        </div>
+      </article>
+      {% endif %}{% endfor %}
+    </div>
+    {% endfor %}
+  </section>
+
+  <div class="background-grid">
+    <section class="background-panel" id="-internships" aria-labelledby="experience-heading">
+      <p class="eyebrow">{{ text.experienceKicker }}</p><h2 id="experience-heading">{{ text.experienceTitle }}</h2>
+      <ol class="timeline">
+      {% for entry in text.internships %}
+        <li><p class="timeline-date">{{ entry.date }}</p><h3>{{ entry.place }}</h3><p>{{ entry.detail }}</p></li>
+      {% endfor %}
+      </ol>
+    </section>
+    <section class="background-panel" id="-educations" aria-labelledby="education-heading">
+      <p class="eyebrow">{{ text.educationKicker }}</p><h2 id="education-heading">{{ text.educationTitle }}</h2>
+      <ol class="timeline">
+      {% for entry in text.schools %}
+        <li><p class="timeline-date">{{ entry.date }}</p><h3>{{ entry.place }}</h3><p>{{ entry.detail }}</p><p class="timeline-location">{{ entry.sub }}</p></li>
+      {% endfor %}
+      </ol>
+    </section>
+  </div>
+
+  <section class="honors-section" id="-honors-and-awards" aria-labelledby="honors-heading">
+    <div class="section-heading"><div><p class="eyebrow">{{ text.awardKicker }}</p><h2 id="honors-heading">{{ text.awardTitle }}</h2></div></div>
+    <ul class="honors-list">
+    {% for award in text.honors %}
+      <li><time>{{ award.date }}</time><div><h3>{{ award.name }}</h3><p>{{ award.by }}</p></div></li>
+    {% endfor %}
+    </ul>
+  </section>
+</main>
+<footer class="site-footer">
+  <div><span class="footer-name">Sirui Liu</span><p>{{ text.footer }}</p></div>
+  <a href="#about-me">{{ text.top }} <span aria-hidden="true">↑</span></a>
+</footer>
