@@ -105,4 +105,5 @@ IEEE IWQoS 2025 · <span class='show_paper_citations' data='LoWz-04AAAAJ:qUcmZB5
 
 # 💻 实习经历
 
+- *2026.06—2026.08*，OPPO 标准研究部，实习生。
 - *2023.07—2023.09*，快手，中国。

@@ -87,4 +87,6 @@ IEEE IWQoS 2025 · <span class='show_paper_citations' data='LoWz-04AAAAJ:qUcmZB5
 - *2019.08 - 2024.06*, School of Software, Tsinghua University, Beijing, China.
 
 # 💻 Internships
+
+- *2026.06 - 2026.08*, Intern, Standards Research Department, OPPO.
 - *2023.07 - 2023.09*, Kuaishou, China.
