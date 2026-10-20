@@ -28,7 +28,7 @@
                 var publication = publications[element.getAttribute('data')];
                 if (publication && typeof publication.num_citations === 'number' &&
                         isFinite(publication.num_citations) && publication.num_citations >= 0) {
-                    element.textContent = 'Citations: ' + publication.num_citations;
+                    element.textContent = {% if page.lang == 'zh-CN' %}'引用：'{% else %}'Citations: '{% endif %} + publication.num_citations;
                 }
             });
         }

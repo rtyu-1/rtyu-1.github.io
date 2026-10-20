@@ -1,5 +1,6 @@
 ---
 permalink: /
+lang: en
 title: ""
 excerpt: ""
 author_profile: true
