@@ -1,19 +1,45 @@
 <script>
     $(document).ready(function () {
+        var rawUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json';
         {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
+        var dataUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json';
         {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
+        var dataUrl = rawUrl;
         {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
+
+        function setCount(id, value) {
+            var element = document.getElementById(id);
+            if (element && typeof value === 'number' && isFinite(value) && value >= 0) {
+                element.textContent = value;
+            }
+        }
+
+        function updateStats(data) {
+            if (!data || typeof data !== 'object') return;
+            setCount('total_cit', data.citedby);
+            setCount('scholar_hindex', data.hindex);
+            var updated = document.getElementById('scholar_updated');
+            if (updated && typeof data.updated === 'string' && /^\d{4}-\d{2}-\d{2}/.test(data.updated)) {
+                updated.textContent = data.updated.slice(0, 10);
+            }
+            var publications = data.publications || {};
+            var citationElements = document.getElementsByClassName('show_paper_citations');
+            Array.prototype.forEach.call(citationElements, function (element) {
+                var publication = publications[element.getAttribute('data')];
+                if (publication && typeof publication.num_citations === 'number' &&
+                        isFinite(publication.num_citations) && publication.num_citations >= 0) {
+                    element.textContent = 'Citations: ' + publication.num_citations;
+                }
             });
+        }
+
+        function fetchStats(url) {
+            return $.ajax({url: url, dataType: 'json', timeout: 10000}).done(updateStats);
+        }
+
+        // Keep the dated counts already shown on the page if a request fails.
+        fetchStats(dataUrl).fail(function () {
+            if (dataUrl !== rawUrl) fetchStats(rawUrl);
         });
-    })
+    });
 </script>
