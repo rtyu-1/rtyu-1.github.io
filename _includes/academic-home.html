@@ -52,6 +52,13 @@
     <div class="stats-source"><a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">{{ text.scholar }} <span aria-hidden="true">↗</span></a><span>{{ text.updated }} <time id="scholar_updated">{{ profile.stats.updated }}</time></span></div>
   </section>
 
+  <section class="research-overview" id="research-overview" aria-labelledby="overview-heading">
+    <h2 id="overview-heading">{{ text.overviewTitle }}</h2>
+    <div class="overview-copy">
+      {% for paragraph in text.overviewParagraphs %}<p>{{ paragraph }}</p>{% endfor %}
+    </div>
+  </section>
+
   <section class="publications-section" id="-publications" aria-labelledby="publications-heading">
     <div class="section-heading">
       <div><p class="eyebrow">{{ text.researchKicker }}</p><h2 id="publications-heading">{{ text.researchTitle }}</h2></div>

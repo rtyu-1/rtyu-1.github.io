@@ -210,6 +210,11 @@
     ],
     "honors": [
       {
+        "date": "2026.10",
+        "name": "Comprehensive Excellence Award — Second Prize",
+        "by": "Institute for Network Sciences and Cyberspace, Tsinghua University"
+      },
+      {
         "date": "2024.06",
         "name": "Excellent Graduate Award",
         "by": "Tsinghua University"
@@ -242,7 +247,12 @@
     ],
     "footer": "Network coding, algorithms, and the ideas that connect them.",
     "skip": "Skip to content",
-    "top": "Back to top"
+    "top": "Back to top",
+    "overviewTitle": "Research overview",
+    "overviewParagraphs": [
+      "My research asks when combining messages inside a network can outperform routing, and when routing alone is sufficient. I focus on multiple-unicast communication in undirected networks, where independent messages must reach their prescribed destinations.",
+      "I develop structural and metric approaches—including session dominance, session interaction, and graph metrics—to characterize coding–routing equivalence and identify conditions under which feasibility can be decided by maximum-flow computations. I also explore how coding advantages lead to faster external-memory integer sorting, connecting network information theory with algorithms and computational complexity."
+    ]
   },
   "zh": {
     "about": "关于我",
@@ -323,6 +333,11 @@
     ],
     "honors": [
       {
+        "date": "2026.10",
+        "name": "综合优秀奖二等奖",
+        "by": "清华大学网络科学与网络空间研究院"
+      },
+      {
         "date": "2024.06",
         "name": "优秀毕业生",
         "by": "清华大学"
@@ -355,6 +370,11 @@
     ],
     "footer": "探索网络编码、算法，以及它们之间的联系。",
     "skip": "跳至正文",
-    "top": "回到顶部"
+    "top": "回到顶部",
+    "overviewTitle": "研究概览",
+    "overviewParagraphs": [
+      "我的研究围绕一个核心问题展开：在网络内部对消息进行编码，何时能够优于路由，何时仅靠路由就已足够？我主要关注无向网络中的多单播通信，即将相互独立的消息分别传输到各自指定的目的节点。",
+      "我从会话支配、会话交互与图度量等结构和度量视角刻画编码与路由的等价条件，并寻找能够通过最大流计算判定通信可行性的情形。同时，我探索如何将网络编码的优势转化为更快的外存整数排序算法，连接网络信息论、算法与计算复杂性。"
+    ]
   }
 }
