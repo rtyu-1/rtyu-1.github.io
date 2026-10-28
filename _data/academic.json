@@ -8,6 +8,22 @@
     {
       "type": "preprint",
       "year": "2026",
+      "venue": "arXiv:2610.33655",
+      "url": "https://arxiv.org/abs/2610.33655",
+      "title": {
+        "en": "When Multiple-Unicast Feasibility Is Equivalent to Single-Sink Routability",
+        "zh": "多单播可行性何时等价于单汇可路由性"
+      },
+      "authors": "**Sirui Liu**, Zongpeng Li, Baochun Li",
+      "role": "first",
+      "summary": {
+        "en": "We show that when the maximum flow between every pair of distinct destinations is at least the total demand rate, multiple-unicast coding and fractional routing are equivalent in feasibility to routing all source rates to any fixed destination. This yields a maximum-flow algorithm for deciding feasibility and proves the Langberg–Médard conjecture as a corollary.",
+        "zh": "我们证明，若任意两个不同目的节点之间的最大流不小于总需求速率，则多单播编码、分数路由与将所有源速率同时路由至任一固定目的节点在可行性上等价。由此得到基于最大流的可行性判定算法，并将 Langberg–Médard 猜想作为推论证明。"
+      }
+    },
+    {
+      "type": "preprint",
+      "year": "2026",
       "venue": "arXiv:2610.20079",
       "id": "LoWz-04AAAAJ:R3hNpaxXUhUC",
       "url": "https://arxiv.org/abs/2610.20079",
@@ -142,7 +158,7 @@
     "updated": "Updated",
     "researchKicker": "RESEARCH",
     "researchTitle": "Publications & preprints",
-    "researchNote": "First or co-first author on 5 of 6 works.",
+    "researchNote": "First or co-first author on 6 of 7 works.",
     "groups": [
       {
         "key": "preprint",
@@ -255,7 +271,7 @@
     "updated": "更新于",
     "researchKicker": "研究成果",
     "researchTitle": "论文与预印本",
-    "researchNote": "6 项成果，其中 5 项为第一作者或共同第一作者。",
+    "researchNote": "7 项成果，其中 6 项为第一作者或共同第一作者。",
     "groups": [
       {
         "key": "preprint",

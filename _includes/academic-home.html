@@ -72,7 +72,9 @@
           <div class="paper-links">
             <a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ text.paper }} <span aria-hidden="true">↗</span></a>
             {% if paper.preprint %}<a href="{{ paper.preprint }}" target="_blank" rel="noopener noreferrer">arXiv <span aria-hidden="true">↗</span></a>{% endif %}
+            {% if paper.id %}
             <span class="show_paper_citations" data="{{ paper.id }}">{% if lang == 'zh' %}引用：{% else %}Citations: {% endif %}{{ paper.citations }}</span>
+            {% endif %}
           </div>
         </div>
       </article>
