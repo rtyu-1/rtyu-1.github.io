@@ -251,7 +251,7 @@
     "overviewTitle": "Research overview",
     "overviewParagraphs": [
       "My research asks when combining messages inside a network can outperform routing, and when routing alone is sufficient. I focus on multiple-unicast communication in undirected networks, where independent messages must reach their prescribed destinations.",
-      "I develop structural and metric approaches—including session dominance, session interaction, and graph metrics—to characterize coding–routing equivalence and identify conditions under which feasibility can be decided by maximum-flow computations. I also explore how coding advantages lead to faster external-memory integer sorting, connecting network information theory with algorithms and computational complexity."
+      "My work develops theoretical tools for analyzing multiple-unicast networks through session structure and metric structure. At the session level, I study dominance and interaction among sessions, together with reductions and decompositions of session sets. At the metric level, I develop a framework that goes beyond cut constraints to study the relationship between network coding and routing. I also explore connections between network coding, algorithms, and computational complexity, including external-memory integer sorting."
     ]
   },
   "zh": {
@@ -374,7 +374,7 @@
     "overviewTitle": "研究概览",
     "overviewParagraphs": [
       "我的研究围绕一个核心问题展开：在网络内部对消息进行编码，何时能够优于路由，何时仅靠路由就已足够？我主要关注无向网络中的多单播通信，即将相互独立的消息分别传输到各自指定的目的节点。",
-      "我从会话支配、会话交互与图度量等结构和度量视角刻画编码与路由的等价条件，并寻找能够通过最大流计算判定通信可行性的情形。同时，我探索如何将网络编码的优势转化为更快的外存整数排序算法，连接网络信息论、算法与计算复杂性。"
+      "我的工作主要围绕会话结构与度量结构展开，发展分析多单播网络的理论工具。在会话层面，我研究会话之间的支配与交互关系，以及会话集合的化简与分解；在度量层面，我建立超越割约束的分析框架，用于研究网络编码与路由的关系。我也探索网络编码与算法及计算复杂性的联系，包括外存整数排序问题。"
     ]
   }
 }
