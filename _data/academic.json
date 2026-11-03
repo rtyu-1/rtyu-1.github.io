@@ -37,7 +37,8 @@
         "en": "We study the advantage of network coding over fractional routing in undirected networks and use the construction to develop faster external-memory integer sorting algorithms.",
         "zh": "我们研究网络编码相对于分数路由在无向网络中的优势，并利用这一构造设计更快的外存整数排序算法。"
       },
-      "citations": 1
+      "citations": 1,
+      "code": "https://github.com/rtyu-1/coded-sorting-lean"
     },
     {
       "type": "preprint",
@@ -251,7 +252,8 @@
     "overviewParagraphs": [
       "I study the limits of network coding and fractional routing in undirected multiple-unicast networks, where each source sends its own message to a specified destination. For which network structures and communication demands can fractional routing achieve every rate tuple that network coding can? When does coding at intermediate nodes allow rates beyond the reach of fractional routing?",
       "I use dominance and interaction among sessions to simplify the demands that need to be analyzed. I also use metrics beyond cut metrics to identify cases where coding and routing achieve the same rates. A further question is how to turn a coding advantage into an algorithmic one. In our work on external-memory integer sorting, for example, we use a coding construction to rearrange data with fewer block transfers between internal and external memory in certain parameter regimes."
-    ]
+    ],
+    "leanCode": "Lean 4 verification code"
   },
   "zh": {
     "about": "关于我",
@@ -373,6 +375,7 @@
     "overviewParagraphs": [
       "我研究无向多单播网络中网络编码与分数路由的能力边界。在这类网络中，每个源节点都要把自己的消息传给指定的目的节点。我想知道，在哪些网络结构和通信需求下，分数路由就能达到网络编码支持的全部速率？又在什么条件下，网络编码能达到分数路由无法达到的速率？",
       "我从会话之间的支配与交互关系入手，化简需要分析的通信需求，并用超越割度量的工具刻画编码与路由等价的情形。我也研究如何把编码优势用于算法设计。例如，在外存整数排序中，我们利用编码构造来重排数据，从而在特定参数范围内减少内存与外存之间的块传输次数。"
-    ]
+    ],
+    "leanCode": "Lean 4 验证代码"
   }
 }

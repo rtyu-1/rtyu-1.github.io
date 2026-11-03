@@ -34,11 +34,11 @@ img{display:block;max-width:100%}
 .biography p+p{margin-top:13px}
 .research-topics{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin-top:21px;padding:0}
 .research-topics li{font-size:14px;line-height:1.5;letter-spacing:.02em;padding:5px 11px;border:1px solid var(--line);border-radius:4px;color:#4e5c70;background:#f0f2f6}
-.hero-links{display:flex;gap:25px;align-items:center;margin-top:29px;font-size:14px;font-weight:600}
+.hero-links{display:flex;flex-wrap:wrap;gap:25px;align-items:center;margin-top:29px;font-size:14px;font-weight:600}
 .hero-links a{display:inline-flex;align-items:center;gap:14px}
 .contact-link{color:white;background:var(--accent);border:1px solid var(--accent);padding:10px 17px;border-radius:4px}
 .contact-link:hover{color:#fff;background:#2c4566}
-.scholar-link{padding:9px 0;border-bottom:1px solid #a5b2c5}
+.profile-link{padding:9px 0;border-bottom:1px solid #a5b2c5}
 
 .stats-strip{display:grid;grid-template-columns:1.2fr 1fr 1fr 1.2fr;align-items:center;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:26px 0;gap:30px}
 .stat{display:flex;align-items:baseline;gap:15px}

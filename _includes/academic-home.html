@@ -35,7 +35,9 @@
       </ul>
       <div class="hero-links">
         <a class="contact-link" href="mailto:{{ site.author.email }}">{{ text.contact }} <span aria-hidden="true">↗</span></a>
-        <a class="scholar-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">{{ text.scholar }} <span aria-hidden="true">↗</span></a>
+        <a class="profile-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">{{ text.scholar }} <span aria-hidden="true">↗</span></a>
+        {% if site.author.github %}<a class="profile-link" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>{% endif %}
+        {% if site.author.orcid %}<a class="profile-link" href="{{ site.author.orcid }}" target="_blank" rel="noopener noreferrer">ORCID <span aria-hidden="true">↗</span></a>{% endif %}
       </div>
     </div>
   </section>
@@ -74,6 +76,7 @@
           <div class="paper-links">
             <a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ text.paper }} <span aria-hidden="true">↗</span></a>
             {% if paper.preprint %}<a href="{{ paper.preprint }}" target="_blank" rel="noopener noreferrer">arXiv <span aria-hidden="true">↗</span></a>{% endif %}
+            {% if paper.code %}<a href="{{ paper.code }}" target="_blank" rel="noopener noreferrer">{{ text.leanCode }} <span aria-hidden="true">↗</span></a>{% endif %}
             {% if paper.id %}
             <span class="show_paper_citations" data="{{ paper.id }}">{% if lang == 'zh' %}引用：{% else %}Citations: {% endif %}{{ paper.citations }}</span>
             {% endif %}
