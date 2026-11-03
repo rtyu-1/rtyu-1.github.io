@@ -143,12 +143,7 @@
     "eyebrow": "NETWORK CODING · INFORMATION THEORY",
     "biography": [
       "I am currently a Ph.D. candidate at the Institute for Network Sciences and Cyberspace, Tsinghua University, advised by Professor Zongpeng Li. I received my bachelor’s degree from the School of Software, Tsinghua University.",
-      "My research focuses on network coding and the multiple-unicast problem. I am also interested in forward error correction and connections between network coding, algorithms, and computational complexity."
-    ],
-    "topics": [
-      "Network coding",
-      "Multiple unicast",
-      "Forward error correction"
+      "I study network coding."
     ],
     "contact": "Get in touch",
     "scholar": "Google Scholar",
@@ -245,12 +240,11 @@
         "by": "Tsinghua University"
       }
     ],
-    "footer": "Network coding, algorithms, and the ideas that connect them.",
     "skip": "Skip to content",
     "top": "Back to top",
     "overviewTitle": "Research overview",
     "overviewParagraphs": [
-      "My research asks when combining messages inside a network can outperform routing, and when routing alone is sufficient. I focus on multiple-unicast communication in undirected networks, where independent messages must reach their prescribed destinations.",
+      "My research asks when combining messages inside a network can outperform routing, and when routing alone is sufficient.",
       "My work develops theoretical tools for analyzing multiple-unicast networks through session structure and metric structure. At the session level, I study dominance and interaction among sessions, together with reductions and decompositions of session sets. At the metric level, I develop a framework that goes beyond cut constraints to study the relationship between network coding and routing. I also explore connections between network coding, algorithms, and computational complexity, including external-memory integer sorting."
     ]
   },
@@ -266,12 +260,7 @@
     "eyebrow": "网络编码 · 信息论",
     "biography": [
       "我目前在清华大学网络科学与网络空间研究院攻读博士学位，导师为 Zongpeng Li 教授。本科毕业于清华大学软件学院。",
-      "我的研究主要围绕网络编码与多单播问题展开，同时关注前向纠错，以及网络编码与算法、计算复杂性之间的联系。"
-    ],
-    "topics": [
-      "网络编码",
-      "多单播问题",
-      "前向纠错"
+      "我的研究方向是网络编码。"
     ],
     "contact": "联系我",
     "scholar": "Google 学术",
@@ -368,12 +357,11 @@
         "by": "清华大学"
       }
     ],
-    "footer": "探索网络编码、算法，以及它们之间的联系。",
     "skip": "跳至正文",
     "top": "回到顶部",
     "overviewTitle": "研究概览",
     "overviewParagraphs": [
-      "我的研究围绕一个核心问题展开：在网络内部对消息进行编码，何时能够优于路由，何时仅靠路由就已足够？我主要关注无向网络中的多单播通信，即将相互独立的消息分别传输到各自指定的目的节点。",
+      "我的研究围绕一个核心问题展开：在网络内部对消息进行编码，何时能够优于路由，何时仅靠路由就已足够？",
       "我的工作主要围绕会话结构与度量结构展开，发展分析多单播网络的理论工具。在会话层面，我研究会话之间的支配与交互关系，以及会话集合的化简与分解；在度量层面，我建立超越割约束的分析框架，用于研究网络编码与路由的关系。我也探索网络编码与算法及计算复杂性的联系，包括外存整数排序问题。"
     ]
   }

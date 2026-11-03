@@ -2,7 +2,7 @@
 permalink: /zh/
 lang: zh-CN
 title: "中文主页"
-excerpt: "Sirui Liu 的学术主页：网络编码、多单播问题与算法。"
+excerpt: "Sirui Liu 的学术主页：网络编码。"
 layout: academic
 author_profile: true
 author_bio: "清华大学"
