@@ -6,9 +6,9 @@
 
 <header class="site-header">
   <div class="header-inner">
-    <a class="wordmark" href="#about-me" aria-label="Sirui Liu">
+    <a class="wordmark" href="#about-me" aria-label="{{ text.name }}">
       <span class="monogram" aria-hidden="true">SL<span></span></span>
-      <span>Sirui Liu<span class="wordmark-sub">{{ text.university }}</span></span>
+      <span>{{ text.name }}<span class="wordmark-sub">{{ text.university }}</span></span>
     </a>
     <nav class="primary-nav" aria-label="{% if lang == 'zh' %}主导航{% else %}Main navigation{% endif %}">
       <a href="#about-me">{{ text.about }}</a>
@@ -27,7 +27,7 @@
 <main id="main" class="site-main">
   <section class="hero" id="about-me" aria-labelledby="profile-name">
     <div class="hero-copy">
-      <h1 id="profile-name">Sirui Liu<span class="name-period">.</span></h1>
+      <h1 id="profile-name">{{ text.name }}<span class="name-period">.</span></h1>
       <p class="hero-position">{{ text.role }} <span aria-hidden="true">/</span> {{ text.university }} <span aria-hidden="true">/</span> {{ text.location }}</p>
       <div class="biography">{% for paragraph in text.biography %}<p>{{ paragraph }}</p>{% endfor %}</div>
       <ul class="research-topics" aria-label="{% if lang == 'zh' %}研究方向{% else %}Research interests{% endif %}">
@@ -71,7 +71,11 @@
           <div class="paper-meta"><span class="venue">{{ paper.venue }}</span><span class="authorship {{ paper.role }}">{{ text.roles[paper.role] }}</span>{% if paper.role == 'cofirst' %}<span class="author-note">{{ text.alphabetical }}</span>{% endif %}</div>
           <h4 class="paper-title"><a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.title[lang] | markdownify | remove: '<p>' | remove: '</p>' }}</a></h4>
           {% if lang == 'zh' %}<p class="paper-original-title" lang="en">{{ paper.title.en }}</p>{% endif %}
-          <div class="paper-authors">{{ paper.authors | markdownify }}</div>
+          {% assign authors = paper.authors %}
+          {% for entry in text.authorNames %}
+            {% assign authors = authors | replace: entry[0], entry[1] %}
+          {% endfor %}
+          <div class="paper-authors">{{ authors | markdownify }}</div>
           {% if paper.summary[lang] != '' %}<div class="paper-summary">{{ paper.summary[lang] | markdownify }}</div>{% endif %}
           <div class="paper-links">
             <a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ text.paper }} <span aria-hidden="true">↗</span></a>
@@ -117,6 +121,6 @@
   </section>
 </main>
 <footer class="site-footer">
-  <span class="footer-name">Sirui Liu</span>
+  <span class="footer-name">{{ text.name }}</span>
   <a href="#about-me">{{ text.top }} <span aria-hidden="true">↑</span></a>
 </footer>

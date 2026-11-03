@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ page.excerpt | escape }}">
-  <title>Sirui Liu — {% if page.lang == 'zh-CN' %}学术主页{% else %}Academic Homepage{% endif %}</title>
+  <title>{% if page.lang == 'zh-CN' %}{{ site.data.academic.zh.name }} — 学术主页{% else %}{{ site.data.academic.en.name }} — Academic Homepage{% endif %}</title>
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
   <link rel="alternate" hreflang="zh-CN" href="{{ '/zh/' | absolute_url }}">
