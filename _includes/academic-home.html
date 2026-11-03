@@ -27,7 +27,6 @@
 <main id="main" class="site-main">
   <section class="hero" id="about-me" aria-labelledby="profile-name">
     <div class="hero-copy">
-      <p class="eyebrow"><span class="accent-line" aria-hidden="true"></span>{{ text.eyebrow }}</p>
       <h1 id="profile-name">Sirui Liu<span class="name-period">.</span></h1>
       <p class="hero-position">{{ text.role }} <span aria-hidden="true">/</span> {{ text.university }} <span aria-hidden="true">/</span> {{ text.location }}</p>
       <div class="biography">{% for paragraph in text.biography %}<p>{{ paragraph }}</p>{% endfor %}</div>
