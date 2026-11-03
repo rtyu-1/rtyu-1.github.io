@@ -38,6 +38,9 @@ img{display:block;max-width:100%}
 .hero-links a{display:inline-flex;align-items:center;gap:14px}
 .contact-link{color:white;background:var(--accent);border:1px solid var(--accent);padding:10px 17px;border-radius:4px}
 .contact-link:hover{color:#fff;background:#2c4566}
+@font-face{font-family:"Homepage Brands";src:url("../fonts/fa-brands-400.woff2") format("woff2");font-weight:normal;font-style:normal}
+.github-mark::before{font:normal 1em/1 "Homepage Brands";content:"\f09b"}
+.hero-links .profile-link{gap:6px}
 .profile-link{padding:9px 0;border-bottom:1px solid #a5b2c5}
 
 .stats-strip{display:grid;grid-template-columns:1.2fr 1fr 1fr 1.2fr;align-items:center;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:26px 0;gap:30px}

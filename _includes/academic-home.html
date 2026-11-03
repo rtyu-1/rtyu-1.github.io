@@ -35,9 +35,9 @@
       </ul>
       <div class="hero-links">
         <a class="contact-link" href="mailto:{{ site.author.email }}">{{ text.contact }} <span aria-hidden="true">↗</span></a>
-        <a class="profile-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">{{ text.scholar }} <span aria-hidden="true">↗</span></a>
-        {% if site.author.github %}<a class="profile-link" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>{% endif %}
-        {% if site.author.orcid %}<a class="profile-link" href="{{ site.author.orcid }}" target="_blank" rel="noopener noreferrer">ORCID <span aria-hidden="true">↗</span></a>{% endif %}
+        <a class="profile-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer"><span class="ai ai-google-scholar" aria-hidden="true"></span>{{ text.scholar }}</a>
+        {% if site.author.github %}<a class="profile-link" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer"><span class="github-mark" aria-hidden="true"></span>GitHub</a>{% endif %}
+        {% if site.author.orcid %}<a class="profile-link" href="{{ site.author.orcid }}" target="_blank" rel="noopener noreferrer"><span class="ai ai-orcid" aria-hidden="true"></span>ORCID</a>{% endif %}
       </div>
     </div>
   </section>
