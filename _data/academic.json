@@ -143,7 +143,12 @@
     "eyebrow": "NETWORK CODING · INFORMATION THEORY",
     "biography": [
       "I am currently a Ph.D. candidate at the Institute for Network Sciences and Cyberspace, Tsinghua University, advised by Professor Zongpeng Li. I received my bachelor’s degree from the School of Software, Tsinghua University.",
-      "I study network coding."
+      "My main research area is network coding. I am also interested in forward error correction and connections between network coding, algorithms, and computational complexity."
+    ],
+    "topics": [
+      "Network coding",
+      "Undirected multiple-unicast networks",
+      "Forward error correction"
     ],
     "contact": "Get in touch",
     "scholar": "Google Scholar",
@@ -244,8 +249,8 @@
     "top": "Back to top",
     "overviewTitle": "Research overview",
     "overviewParagraphs": [
-      "My research asks when combining messages inside a network can outperform routing, and when routing alone is sufficient.",
-      "My work develops theoretical tools for analyzing multiple-unicast networks through session structure and metric structure. At the session level, I study dominance and interaction among sessions, together with reductions and decompositions of session sets. At the metric level, I develop a framework that goes beyond cut constraints to study the relationship between network coding and routing. I also explore connections between network coding, algorithms, and computational complexity, including external-memory integer sorting."
+      "I study the limits of network coding and fractional routing in undirected multiple-unicast networks, where each source sends its own message to a specified destination. For which network structures and communication demands can fractional routing achieve every rate tuple that network coding can? When does coding at intermediate nodes allow rates beyond the reach of fractional routing?",
+      "I use dominance and interaction among sessions to simplify the demands that need to be analyzed. I also use metrics beyond cut metrics to identify cases where coding and routing achieve the same rates. A further question is how to turn a coding advantage into an algorithmic one. In our work on external-memory integer sorting, for example, we use a coding construction to rearrange data with fewer block transfers between internal and external memory in certain parameter regimes."
     ]
   },
   "zh": {
@@ -260,7 +265,12 @@
     "eyebrow": "网络编码 · 信息论",
     "biography": [
       "我目前在清华大学网络科学与网络空间研究院攻读博士学位，导师为 Zongpeng Li 教授。本科毕业于清华大学软件学院。",
-      "我的研究方向是网络编码。"
+      "我的主要研究方向是网络编码。我也关注前向纠错，以及网络编码与算法、计算复杂性之间的联系。"
+    ],
+    "topics": [
+      "网络编码",
+      "无向多单播网络",
+      "前向纠错"
     ],
     "contact": "联系我",
     "scholar": "Google 学术",
@@ -361,8 +371,8 @@
     "top": "回到顶部",
     "overviewTitle": "研究概览",
     "overviewParagraphs": [
-      "我的研究围绕一个核心问题展开：在网络内部对消息进行编码，何时能够优于路由，何时仅靠路由就已足够？",
-      "我的工作主要围绕会话结构与度量结构展开，发展分析多单播网络的理论工具。在会话层面，我研究会话之间的支配与交互关系，以及会话集合的化简与分解；在度量层面，我建立超越割约束的分析框架，用于研究网络编码与路由的关系。我也探索网络编码与算法及计算复杂性的联系，包括外存整数排序问题。"
+      "我研究无向多单播网络中网络编码与分数路由的能力边界。在这类网络中，每个源节点都要把自己的消息传给指定的目的节点。我想知道，在哪些网络结构和通信需求下，分数路由就能达到网络编码支持的全部速率？又在什么条件下，网络编码能达到分数路由无法达到的速率？",
+      "我从会话之间的支配与交互关系入手，化简需要分析的通信需求，并用超越割度量的工具刻画编码与路由等价的情形。我也研究如何把编码优势用于算法设计。例如，在外存整数排序中，我们利用编码构造来重排数据，从而在特定参数范围内减少内存与外存之间的块传输次数。"
     ]
   }
 }

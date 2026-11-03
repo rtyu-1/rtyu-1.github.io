@@ -30,6 +30,9 @@
       <h1 id="profile-name">Sirui Liu<span class="name-period">.</span></h1>
       <p class="hero-position">{{ text.role }} <span aria-hidden="true">/</span> {{ text.university }} <span aria-hidden="true">/</span> {{ text.location }}</p>
       <div class="biography">{% for paragraph in text.biography %}<p>{{ paragraph }}</p>{% endfor %}</div>
+      <ul class="research-topics" aria-label="{% if lang == 'zh' %}研究方向{% else %}Research interests{% endif %}">
+        {% for topic in text.topics %}<li>{{ topic }}</li>{% endfor %}
+      </ul>
       <div class="hero-links">
         <a class="contact-link" href="mailto:{{ site.author.email }}">{{ text.contact }} <span aria-hidden="true">↗</span></a>
         <a class="scholar-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">{{ text.scholar }} <span aria-hidden="true">↗</span></a>
