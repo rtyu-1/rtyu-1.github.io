@@ -29,7 +29,7 @@
     <div class="hero-copy">
       <p class="eyebrow"><span class="accent-line" aria-hidden="true"></span>{{ text.eyebrow }}</p>
       <h1 id="profile-name">Sirui Liu<span class="name-period">.</span></h1>
-      <p class="hero-position">{{ text.role }} <span aria-hidden="true">/</span> {{ text.university }}</p>
+      <p class="hero-position">{{ text.role }} <span aria-hidden="true">/</span> {{ text.university }} <span aria-hidden="true">/</span> {{ text.location }}</p>
       <div class="biography">{% for paragraph in text.biography %}<p>{{ paragraph }}</p>{% endfor %}</div>
       <ul class="research-topics" aria-label="{% if lang == 'zh' %}研究方向{% else %}Research interests{% endif %}">
         {% for topic in text.topics %}<li>{{ topic }}</li>{% endfor %}
@@ -39,10 +39,6 @@
         <a class="scholar-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">{{ text.scholar }} <span aria-hidden="true">↗</span></a>
       </div>
     </div>
-    <figure class="portrait">
-      <div class="portrait-frame"><img src="{{ site.author.avatar | relative_url }}" alt="Sirui Liu" width="256" height="256" fetchpriority="high"></div>
-      <figcaption><span class="location-dot" aria-hidden="true"></span>{{ text.location }}</figcaption>
-    </figure>
   </section>
 
   <section class="stats-strip" aria-label="{% if lang == 'zh' %}学术概览{% else %}Research at a glance{% endif %}">
