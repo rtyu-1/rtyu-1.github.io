@@ -28,8 +28,8 @@
       "id": "LoWz-04AAAAJ:R3hNpaxXUhUC",
       "url": "https://arxiv.org/abs/2610.20079",
       "title": {
-        "en": "Undirected Network Coding and Faster External-Memory Integer Sorting",
-        "zh": "无向网络编码与更快的外存整数排序"
+        "en": "Undirected Multiple-Unicast Network Coding and Faster External-Memory Integer Sorting",
+        "zh": "无向多单播网络编码与更快的外存整数排序"
       },
       "authors": "Baochun Li, Zongpeng Li, **Sirui Liu**",
       "role": "cofirst",
