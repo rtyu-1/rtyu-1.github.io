@@ -8,6 +8,22 @@
     {
       "type": "preprint",
       "year": "2026",
+      "venue": "arXiv:2611.29469",
+      "url": "https://arxiv.org/abs/2611.29469",
+      "title": {
+        "en": "Almost-Isometric Embeddings of Graphs into Riemannian Manifolds",
+        "zh": "图到黎曼流形的近等距嵌入"
+      },
+      "authors": "**Sirui Liu**, Zongpeng Li, Baochun Li",
+      "role": "first",
+      "summary": {
+        "en": "We construct noncontractive $(1+\\varepsilon)$-embeddings of finite connected positively weighted graph metrics into smooth closed orientable surfaces in $\\mathbb{R}^3$, for arbitrarily small $\\varepsilon>0$. This construction transfers coding advantages from graphs to surfaces. We establish unbounded coding advantage across smooth closed surfaces, together with an $O(\\log(g+2))$ upper bound in terms of genus $g$ for both graphs and surfaces.",
+        "zh": "我们将任意有限连通正权图的度量，以不收缩的 $(1+\\varepsilon)$ 失真嵌入 $\\mathbb{R}^3$ 中的光滑闭可定向曲面，其中 $\\varepsilon>0$ 可任意小。这一构造将图上的编码优势转移到曲面上，并给出编码优势可任意大的光滑闭曲面，以及图和曲面上关于亏格 $g$ 的 $O(\\log(g+2))$ 编码优势上界。"
+      }
+    },
+    {
+      "type": "preprint",
+      "year": "2026",
       "venue": "arXiv:2610.33655",
       "url": "https://arxiv.org/abs/2610.33655",
       "title": {
@@ -160,7 +176,7 @@
     "updated": "Updated",
     "researchKicker": "RESEARCH",
     "researchTitle": "Publications & preprints",
-    "researchNote": "First or co-first author on 6 of 7 works.",
+    "researchNote": "First or co-first author on 7 of 8 works.",
     "groups": [
       {
         "key": "preprint",
@@ -284,7 +300,7 @@
     "updated": "更新于",
     "researchKicker": "研究成果",
     "researchTitle": "论文与预印本",
-    "researchNote": "7 项成果，其中 6 项为第一作者或共同第一作者。",
+    "researchNote": "8 项成果，其中 7 项为第一作者或共同第一作者。",
     "groups": [
       {
         "key": "preprint",
