@@ -267,8 +267,7 @@
     "top": "Back to top",
     "overviewTitle": "Research overview",
     "overviewParagraphs": [
-      "I study the limits of network coding and fractional routing in undirected multiple-unicast networks, where each source sends its own message to a specified destination. For which network structures and communication demands can fractional routing achieve every rate tuple that network coding can? When does coding at intermediate nodes allow rates beyond the reach of fractional routing?",
-      "I use dominance and interaction among sessions to simplify the demands that need to be analyzed. I also use metrics beyond cut metrics to identify cases where coding and routing achieve the same rates. A further question is how to turn a coding advantage into an algorithmic one. In our work on external-memory integer sorting, for example, we use a coding construction to rearrange data with fewer block transfers between internal and external memory in certain parameter regimes."
+      "My research studies the coding advantage of network coding over fractional routing in undirected multiple-unicast networks. To characterize regimes with no coding advantage, I work along two directions. In <strong>discrete topology</strong>, I use demand reductions and metrics beyond cut metrics to identify graph and demand structures where routing achieves the same rates as coding; under pairwise destination max-flow conditions, I further show that multiple-unicast feasibility coincides with single-sink routability, yielding a maximum-flow feasibility algorithm and a proof of the Langberg–Médard conjecture. In <strong>continuous geometry</strong>, I study space information flow and show that coding offers no advantage over routing in $\\ell_p^n$ spaces for $1 \\le p \\le 2$. Where coding does outperform routing, I construct almost-isometric embeddings of graphs into smooth closed surfaces in $\\mathbb{R}^3$ to transfer coding advantages from graphs to surfaces, establishing unbounded coding advantage across surfaces alongside an $O(\\log(g+2))$ upper bound on the coding advantage in terms of genus $g$ for both graphs and surfaces. Finally, I turn coding advantages into algorithmic speedups, such as reducing block transfers in external-memory integer sorting."
     ],
     "leanCode": "Lean 4 verification code"
   },
@@ -391,8 +390,7 @@
     "top": "回到顶部",
     "overviewTitle": "研究概览",
     "overviewParagraphs": [
-      "我研究无向多单播网络中网络编码与分数路由的能力边界。在这类网络中，每个源节点都要把自己的消息传给指定的目的节点。我想知道，在哪些网络结构和通信需求下，分数路由就能达到网络编码支持的全部速率？又在什么条件下，网络编码能达到分数路由无法达到的速率？",
-      "我从会话之间的支配与交互关系入手，化简需要分析的通信需求，并用超越割度量的工具刻画编码与路由等价的情形。我也研究如何把编码优势用于算法设计。例如，在外存整数排序中，我们利用编码构造来重排数据，从而在特定参数范围内减少内存与外存之间的块传输次数。"
+      "我的研究关注无向多单播网络中网络编码相对于分数路由的编码优势。为刻画不存在编码优势的情形，我从两个方向展开研究。在<strong>离散拓扑</strong>方面，我利用需求归约和超越割度量的工具，识别路由能够达到与编码相同速率的图结构和需求结构；在目的节点两两之间满足最大流条件时，我进一步证明多单播可行性等价于单汇可路由性，由此得到基于最大流的可行性判定算法，并证明 Langberg–Médard 猜想。在<strong>连续几何</strong>方面，我研究空间信息流，并证明在 $1 \\le p \\le 2$ 的 $\\ell_p^n$ 空间中，编码相对于路由没有优势。在编码确实优于路由的情形下，我构造图到 $\\mathbb{R}^3$ 中光滑闭曲面的近等距嵌入，将编码优势从图推广至曲面，证明曲面上的编码优势可以无界，同时给出图和曲面上编码优势关于亏格 $g$ 的 $O(\\log(g+2))$ 上界。最后，我将编码优势转化为算法加速，例如减少外存整数排序中的块传输次数。"
     ],
     "leanCode": "Lean 4 验证代码",
     "authorNames": {
